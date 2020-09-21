@@ -1,0 +1,52 @@
+/// Media Query ///
+@mixin media($device) {
+  @if $device == phone {
+    @media only screen and (max-width: $breakpoint-tablet - 1) {
+      @content;
+    }
+  } @else if $device == tablet {
+    @media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop - 1) {
+      @content;
+    }
+  } @else if $device == desktop {
+    @media only screen and (min-width: $breakpoint-desktop) {
+      @content;
+    }
+  } @else if $device == tablet-up {
+    @media only screen and (min-width: $breakpoint-tablet) {
+      @content;
+    }
+  } @else if $device == tablet-down {
+    @media only screen and (max-width: $breakpoint-desktop - 1) {
+      @content;
+    }
+  }
+}
+
+@mixin media-max($val) {
+  @media only screen and (max-width: $val) {
+    @content;
+  }
+}
+
+@mixin media-min($val) {
+  @media only screen and (min-width: $val) {
+    @content;
+  }
+}
+
+/// Button ///
+@mixin button-base($backgroundColor: $gray-light, $borderColor: $gray-light, $textColor: $black) {
+  background-color: $backgroundColor;
+  border: solid 2px $borderColor;
+  color: $textColor;
+  font-weight: $font-weight-bold;
+  font-size: rem(16);
+  padding: 0 30px;
+  height: rem(44);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s;
+  cursor: pointer;
+}
