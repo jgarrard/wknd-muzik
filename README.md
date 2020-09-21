@@ -1,6 +1,10 @@
-# Sample AEM project template
+# WKND Muzik - Adobe Lean Code Contest
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This is a project for the Adobe Lean Code contest. Using Core Components and Adobe Blueprint best practices.
+
+Project Devs:
+* Jon Garrard
+* Shivani Garg
 
 ## Modules
 
