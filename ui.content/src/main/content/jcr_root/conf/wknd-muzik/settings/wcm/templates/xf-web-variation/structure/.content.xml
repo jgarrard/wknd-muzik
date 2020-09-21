@@ -12,13 +12,13 @@
             editable="{Boolean}true"/>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
-                <phone
+                <small
                     jcr:primaryType="nt:unstructured"
-                    title="Smaller Screen"
-                    width="{Long}768"/>
-                <tablet
+                    title="Small"
+                    width="{Long}650"/>
+                <medium
                     jcr:primaryType="nt:unstructured"
-                    title="Tablet"
+                    title="Medium"
                     width="{Long}1200"/>
             </breakpoints>
         </cq:responsive>
