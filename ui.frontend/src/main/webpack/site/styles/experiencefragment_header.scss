@@ -6,6 +6,8 @@ header.experiencefragment {
 
     .cmp-experiencefragment {
         height: 100%;
+        max-width: $grid-max-width;
+        margin: 0 auto;
 
         > .cmp-container {
             display: flex;
@@ -32,6 +34,10 @@ header.experiencefragment {
 
         &__item {
             padding: 0 10px;
+
+            &-link {
+                text-decoration: none;
+            }
         }
     }
 
