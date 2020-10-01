@@ -34,9 +34,9 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
@@ -303,6 +303,81 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_54712243013600
+                    cq:styleDefaultElement="div"
+                    jcr:lastModified="{Date}2020-10-01T02:23:25.552-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content - Container"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedColorSwatches="[rgb(60\,85\,240),rgb(23\,23\,23),rgb(255\,255\,255)]"
+                    backgroundColorEnabled="true"
+                    backgroundImageEnabled="true"
+                    components="[group:WKND MUZIK Site - Content,group:WKND MUZIK Site - Form]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Style"
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-container--roundedCorners"
+                                    cq:styleId="1601532443475"
+                                    cq:styleLabel="Rounded Corners"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-container--borderBlue"
+                                    cq:styleId="1601532444373"
+                                    cq:styleLabel="Border - Blue"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                        <item1
+                            cq:styleGroupLabel="Padding - Top"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-container--paddingTopSmall"
+                                    cq:styleId="1601532499365"
+                                    cq:styleLabel="Small"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-container--paddingTopMedium"
+                                    cq:styleId="1601532505612"
+                                    cq:styleLabel="Medium"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                        <item2
+                            cq:styleGroupLabel="Padding - Bottom"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-container--paddingBottomSmall"
+                                    cq:styleId="1601532513839"
+                                    cq:styleLabel="Small"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-container--paddingBottomMedium"
+                                    cq:styleId="1601532520060"
+                                    cq:styleLabel="Medium"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item2>
+                        <item3
+                            cq:styleGroupLabel="Padding - Sides"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-container--paddingSidesSmall"
+                                    cq:styleId="1601532524525"
+                                    cq:styleLabel="Small"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item3>
+                    </cq:styleGroups>
+                </policy_54712243013600>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
@@ -339,6 +414,56 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
+            <sectioncontainer jcr:primaryType="nt:unstructured">
+                <policy_1601531868086
+                    cq:styleDefaultElement="section"
+                    jcr:lastModified="{Date}2020-10-01T02:22:59.337-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content - Section Container"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedColorSwatches="[rgb(60\,85\,240),rgb(23\,23\,23),rgb(255\,255\,255)]"
+                    backgroundColorEnabled="true"
+                    backgroundImageEnabled="true">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Style"
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-container--noGutter"
+                                    cq:styleId="1601531988518"
+                                    cq:styleLabel="No Gutter"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-container--fullWidth"
+                                    cq:styleId="1601531989185"
+                                    cq:styleLabel="Full Width"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                        <item1
+                            cq:styleGroupLabel="Padding"
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-sectionContainer--paddingTop"
+                                    cq:styleId="1601532084036"
+                                    cq:styleLabel="Top"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-sectionContainer--paddingBottom"
+                                    cq:styleId="1601532110281"
+                                    cq:styleLabel="Bottom"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                    </cq:styleGroups>
+                </policy_1601531868086>
+            </sectioncontainer>
         </components>
     </wknd-muzik>
 </jcr:root>

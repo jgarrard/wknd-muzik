@@ -3,7 +3,8 @@
 /// Base Colors ///
 $black:           #0E0F13;
 $white:           #FFF;
-$blue:            #3d55f0;
+$blue:            #3c55f0;
+$blue-light:      lighten($blue, 15%);
 $red:             #FB2657;
 
 $gray-dark:       #171717;
@@ -15,14 +16,15 @@ $gray-lightest:   #efefef;
 $body-bg:                 $black;
 $text-color:              $white;
 $link-color:              $white;
-$link-hover-color:        $blue;
-$border-radius:           8px;
+$link-hover-color:        $blue-light;
+$border-radius-button:    8px;
+$border-radius-container: 16px;
 
 /// Layout ///
-$gutter-width:        20px;
-$grid-max-width:      1200px;
-$breakpoint-tablet:   650px;
-$breakpoint-desktop:  1200px;
+$gutter-width:            20px;
+$grid-max-width:          1200px;
+$breakpoint-tablet:       650px;
+$breakpoint-desktop:      1200px;
 
 /// Typography ///
 $font-family-sans-serif:  'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
@@ -30,11 +32,11 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-base:        $font-family-sans-serif;
 $font-size-base:          16px;
 
-$font-weight-light:      300;
-$font-weight-normal:     400;
-$font-weight-semi-bold:  600;
-$font-weight-bold:       700;
-$font-weight-base:       $font-weight-normal;
+$font-weight-light:       300;
+$font-weight-normal:      400;
+$font-weight-semi-bold:   600;
+$font-weight-bold:        700;
+$font-weight-base:        $font-weight-normal;
 
 $font-size-xs:            rem(12);
 $font-size-s:             rem(14);
