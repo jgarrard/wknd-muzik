@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-01T01:59:33.355-06:00"
+        cq:lastModified="{Date}2020-10-02T14:55:37.860-06:00"
         cq:lastModifiedBy="admin"
         cq:policy="wknd-muzik/components/page/policy"
         jcr:primaryType="nt:unstructured"

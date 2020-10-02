@@ -424,7 +424,7 @@
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
                     jcr:description="Sets the title size to H3."
-                    jcr:lastModified="{Date}2020-10-02T11:01:09.205-06:00"
+                    jcr:lastModified="{Date}2020-10-02T17:06:12.829-06:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Teaser"
@@ -437,6 +437,16 @@
                             jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
                                 <item0
+                                    cq:styleClasses="cmp-teaser--hero"
+                                    cq:styleId="1601672103011"
+                                    cq:styleLabel="Hero - Content Left"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-teaser--heroContentRight"
+                                    cq:styleId="1601679951868"
+                                    cq:styleLabel="Hero - Content Right"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
                                     cq:styleClasses="cmp-teaser--imageReflection"
                                     cq:styleId="1601658046813"
                                     cq:styleLabel="Image Reflection"
@@ -474,7 +484,7 @@
             <sectioncontainer jcr:primaryType="nt:unstructured">
                 <policy_1601531868086
                     cq:styleDefaultElement="section"
-                    jcr:lastModified="{Date}2020-10-02T12:16:32.073-06:00"
+                    jcr:lastModified="{Date}2020-10-02T14:53:32.056-06:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content - Section Container"
@@ -490,19 +500,14 @@
                             jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
                                 <item0
-                                    cq:styleClasses="cmp-container--noGutter"
+                                    cq:styleClasses="cmp-sectionContainer--noGutter"
                                     cq:styleId="1601531988518"
                                     cq:styleLabel="No Gutter"
                                     jcr:primaryType="nt:unstructured"/>
                                 <item1
-                                    cq:styleClasses="cmp-container--fullWidth"
+                                    cq:styleClasses="cmp-sectionContainer--fullWidth"
                                     cq:styleId="1601531989185"
                                     cq:styleLabel="Full Width"
-                                    jcr:primaryType="nt:unstructured"/>
-                                <item2
-                                    cq:styleClasses="cmp-sectionContainer--flex"
-                                    cq:styleId="1601662556940"
-                                    cq:styleLabel="Flex Container"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
@@ -523,6 +528,23 @@
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item1>
+                        <item2
+                            cq:styleGroupLabel="Flex"
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-sectionContainer--flex"
+                                    cq:styleId="1601671957806"
+                                    cq:styleLabel="Flex Container"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-sectionContainer--flexVerticalCenter"
+                                    cq:styleId="1601671958681"
+                                    cq:styleLabel="Vertical Center"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item2>
                     </cq:styleGroups>
                 </policy_1601531868086>
             </sectioncontainer>

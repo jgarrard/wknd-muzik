@@ -95,12 +95,6 @@
   }
 }
 
-.cmp-container--fullWidth {
-  > .cmp-container > .aem-Grid {
-    max-width: 100% !important;
-  }
-}
-
 .cmp-container--roundedCorners {
   > .cmp-container {
     border-radius: $border-radius-container;

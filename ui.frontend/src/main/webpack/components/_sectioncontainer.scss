@@ -3,42 +3,63 @@
   padding-right: 0 !important;
   max-width: $grid-max-width;
   margin: 0 auto;
+}
 
-  &--padding {
-    &Top {
-      padding-top: $gutter-width * 4;
-  
-      @include media(phone) {
-        padding-top: $gutter-width * 1.5;
-      }
-    }
-  
-    &Bottom {
-      padding-bottom: $gutter-width * 4;
-  
-      @include media(phone) {
-        padding-bottom: $gutter-width * 1.5;
-      }
+.cmp-sectionContainer--padding {
+  &Top {
+    padding-top: $gutter-width * 4;
+
+    @include media(phone) {
+      padding-top: $gutter-width * 1.5;
     }
   }
 
-  &--flex {
+  &Bottom {
+    padding-bottom: $gutter-width * 4;
+
+    @include media(phone) {
+      padding-bottom: $gutter-width * 1.5;
+    }
+  }
+}
+
+.cmp-sectionContainer--flex {
+  .cmp-sectionContainer {
+    > .aem-Grid {
+      display: flex;
+    }
+  }
+
+  &VerticalCenter {
     .cmp-sectionContainer {
       > .aem-Grid {
-        display: flex;
+        align-items: center;
       }
     }
+  }
+}
+
+.cmp-sectionContainer--fullWidth {
+  .cmp-sectionContainer {
+    max-width: 100% !important;
+  }
+}
+
+.cmp-sectionContainer--noGutter {
+  .cmp-sectionContainer > .aem-Grid > .aem-GridColumn {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 // Edit and Layout mode resets
 .aem-AuthorLayer-Edit,
 .aem-AuthorLayer-Layouting {
-  .cmp-sectionContainer:not(.cmp-container--fullWidth) {
+  .cmp-sectionContainer {
     max-width: unset;
   }
 
-  .sectioncontainer.responsivegrid {
+  .sectioncontainer.responsivegrid:not(.cmp-sectionContainer--fullWidth) {
     max-width: $grid-max-width;
     margin: 0 auto;
     float: unset !important;

@@ -3,8 +3,12 @@
 
 main.container {
     padding: 0;
+
+    > .cmp-container > .aem-Grid > .container {
+        padding: 0;
+    }
 }
 
-#ContentContainer {
+#contentContainer {
     padding: 0;
 }
