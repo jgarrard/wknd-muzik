@@ -1,3 +1,53 @@
-.cmp-title {}
-.cmp-title__text {}
-.cmp-title__link {}
+.cmp-title {
+  &__link {
+    color: inherit;
+  }
+
+  &__text {
+    margin: 0 0 .5em;
+  }
+}
+
+.cmp-title--weight {
+  &Semibold {
+    .cmp-title__text {
+      font-weight: $font-weight-semibold;
+    }
+  }
+
+  &Bold {
+    .cmp-title__text {
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+.cmp-title--center {
+  .cmp-title__text {
+    text-align: center;
+  }
+}
+
+.cmp-title--uppercase {
+  .cmp-title__text {
+    text-transform: uppercase;
+  }
+}
+
+.cmp-title--underline {
+  .cmp-title__text {
+    position: relative;
+    padding-bottom: 20px;
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: block;
+      content: '';
+      width: 128px;
+      height: 6px;
+      background: $blue;
+    }
+  }
+}
