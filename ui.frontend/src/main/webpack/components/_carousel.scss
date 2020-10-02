@@ -12,3 +12,8 @@
 .cmp-carousel__action-text {}
 .cmp-carousel__indicators {}
 .cmp-carousel__indicator {}
+
+// Container padding reset for Carousel
+.cmp-container > .aem-Grid > .aem-GridColumn.carousel {
+  padding: 0;
+}
