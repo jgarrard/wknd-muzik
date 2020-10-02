@@ -424,11 +424,26 @@
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
                     jcr:description="Sets the title size to H3."
+                    jcr:lastModified="{Date}2020-10-02T11:01:09.205-06:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Teaser"
                     sling:resourceType="wcm/core/components/policy/policy"
                     titleType="h3">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Style"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-teaser--imageReflection"
+                                    cq:styleId="1601658046813"
+                                    cq:styleLabel="Image Reflection"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
                 </policy_1575031387650>
             </teaser>
             <download jcr:primaryType="nt:unstructured">
@@ -459,7 +474,7 @@
             <sectioncontainer jcr:primaryType="nt:unstructured">
                 <policy_1601531868086
                     cq:styleDefaultElement="section"
-                    jcr:lastModified="{Date}2020-10-01T02:22:59.337-06:00"
+                    jcr:lastModified="{Date}2020-10-02T12:16:32.073-06:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content - Section Container"
@@ -483,6 +498,11 @@
                                     cq:styleClasses="cmp-container--fullWidth"
                                     cq:styleId="1601531989185"
                                     cq:styleLabel="Full Width"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="cmp-sectionContainer--flex"
+                                    cq:styleId="1601662556940"
+                                    cq:styleLabel="Flex Container"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>

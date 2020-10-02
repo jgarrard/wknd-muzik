@@ -1,0 +1,54 @@
+.cmp-sectionContainer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: $grid-max-width;
+  margin: 0 auto;
+
+  &--padding {
+    &Top {
+      padding-top: $gutter-width * 4;
+  
+      @include media(phone) {
+        padding-top: $gutter-width * 1.5;
+      }
+    }
+  
+    &Bottom {
+      padding-bottom: $gutter-width * 4;
+  
+      @include media(phone) {
+        padding-bottom: $gutter-width * 1.5;
+      }
+    }
+  }
+
+  &--flex {
+    .cmp-sectionContainer {
+      > .aem-Grid {
+        display: flex;
+      }
+    }
+  }
+}
+
+// Edit and Layout mode resets
+.aem-AuthorLayer-Edit,
+.aem-AuthorLayer-Layouting {
+  .cmp-sectionContainer:not(.cmp-container--fullWidth) {
+    max-width: unset;
+  }
+
+  .sectioncontainer.responsivegrid {
+    max-width: $grid-max-width;
+    margin: 0 auto;
+    float: unset !important;
+  }
+
+  .cmp-sectionContainer--flex {
+    .cmp-sectionContainer {
+      > .aem-Grid {
+        display: block;
+      }
+    }
+  }
+}

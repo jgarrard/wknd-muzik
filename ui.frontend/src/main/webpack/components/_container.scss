@@ -9,13 +9,6 @@
   }
 }
 
-.cmp-sectionContainer {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  max-width: $grid-max-width;
-  margin: 0 auto;
-}
-
 .cmp-container--padding {
   &Top {
     &Small {
@@ -36,7 +29,7 @@
 
     &Large {
       > .cmp-container {
-        padding-top: $gutter-width * 5;
+        padding-top: $gutter-width * 6;
 
         @include media(phone) {
           padding-top: $gutter-width * 2;
@@ -64,7 +57,7 @@
 
     &Large {
       > .cmp-container {
-        padding-bottom: $gutter-width * 5;
+        padding-bottom: $gutter-width * 6;
 
         @include media(phone) {
           padding-bottom: $gutter-width * 2;
@@ -95,24 +88,6 @@
   }
 }
 
-.cmp-sectionContainer--padding {
-  &Top {
-    padding-top: $gutter-width * 3;
-
-    @include media(phone) {
-      padding-top: $gutter-width * 1.5;
-    }
-  }
-
-  &Bottom {
-    padding-bottom: $gutter-width * 3;
-
-    @include media(phone) {
-      padding-bottom: $gutter-width * 1.5;
-    }
-  }
-}
-
 .cmp-container--noGutter {
   > .cmp-container > .aem-Grid > .aem-GridColumn {
     padding-left: 0;
@@ -138,19 +113,5 @@
     .cmp-container {
       border: 1px solid $blue;
     }
-  }
-}
-
-// Edit and Layout mode resets
-.aem-AuthorLayer-Edit,
-.aem-AuthorLayer-Layouting {
-  .cmp-sectionContainer:not(.cmp-container--fullWidth) {
-    max-width: unset;
-  }
-
-  .sectioncontainer.responsivegrid {
-    max-width: $grid-max-width;
-    margin: 0 auto;
-    float: unset !important;
   }
 }
