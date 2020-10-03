@@ -424,7 +424,7 @@
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
                     jcr:description="Sets the title size to H3."
-                    jcr:lastModified="{Date}2020-10-02T17:06:12.829-06:00"
+                    jcr:lastModified="{Date}2020-10-02T22:47:34.779-06:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Teaser"
@@ -450,6 +450,16 @@
                                     cq:styleClasses="cmp-teaser--imageReflection"
                                     cq:styleId="1601658046813"
                                     cq:styleLabel="Image Reflection"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="cmp-teaser--50-50"
+                                    cq:styleId="1601689208733"
+                                    cq:styleLabel="50/50 - Content Left"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item4
+                                    cq:styleClasses="cmp-teaser--card"
+                                    cq:styleId="1601689209450"
+                                    cq:styleLabel="Card"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
