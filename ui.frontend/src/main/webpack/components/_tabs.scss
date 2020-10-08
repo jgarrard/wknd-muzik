@@ -1,6 +1,48 @@
-.cmp-tabs {}
-.cmp-tabs__tablist {}
-.cmp-tabs__tab {}
-.cmp-tabs__tab--active {}
-.cmp-tabs__tabpanel {}
-.cmp-tabs__tabpanel--active {}
+.cmp-tabs {
+  &__tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: rem(44);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: solid 1px transparent;
+    border-radius: $border-radius-button;
+    color: $white;
+    font-size: rem(14);
+    line-height: 1;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+  
+    &:hover {
+      border: solid 1px $white;
+    }
+
+    &--active {
+      background-color: $blue;
+      border: solid 1px $blue;
+
+      &:hover {
+        background-color: $blue;
+        border: solid 1px $blue;
+        color: $white;
+        cursor: default;
+      }
+    }
+  }
+
+  &__tablist {
+    margin-bottom: 40px;
+  }
+
+  &__tabpanel {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}

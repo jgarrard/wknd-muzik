@@ -1,6 +1,17 @@
 .cmp-teaser {
   &__content {
-    padding: 20px 0;
+    padding: 15px 1px;
+  }
+
+  &__title {
+    font-weight: $font-weight-semibold;
+    margin-bottom: rem(10);
+  }
+
+  &__description {
+    > p {
+      margin-bottom: rem(10);
+    }
   }
 }
 
@@ -81,7 +92,7 @@
     &__action-link {
       display: inline-flex;
       align-items: center;
-      height: 48px;
+      height: rem(44);
       padding-left: 25px;
       padding-right: 25px;
       background: $blue;
@@ -190,7 +201,7 @@
     &__action-link {
       display: inline-flex;
       align-items: center;
-      height: 48px;
+      height: rem(44);
       padding-left: 30px;
       padding-right: 30px;
       background-color: transparent;
