@@ -596,6 +596,30 @@
                     </cq:styleGroups>
                 </policy_1601879200874>
             </button>
+            <carousel jcr:primaryType="nt:unstructured">
+                <policy_1602133734952
+                    jcr:lastModified="{Date}2020-10-07T23:09:54.925-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content - Carousel"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    autopauseDisabled="false"
+                    autoplay="false"
+                    delay="5000">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-carousel--hero"
+                                    cq:styleId="1602133764862"
+                                    cq:styleLabel="Hero"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1602133734952>
+            </carousel>
         </components>
     </wknd-muzik>
 </jcr:root>

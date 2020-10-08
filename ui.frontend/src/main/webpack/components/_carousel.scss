@@ -1,17 +1,87 @@
-.cmp-carousel {}
-.cmp-carousel__content {}
-.cmp-carousel__item {}
-.cmp-carousel__actions {}
-.cmp-carousel__action {}
-.cmp-carousel__action--disabled {}
-.cmp-carousel__action--previous {}
-.cmp-carousel__action--next {}
-.cmp-carousel__action--pause {}
-.cmp-carousel__action--play {}
-.cmp-carousel__action-icon {}
-.cmp-carousel__action-text {}
-.cmp-carousel__indicators {}
-.cmp-carousel__indicator {}
+
+.cmp-carousel {
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 5%;
+  }
+
+  &__action {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    z-index: 2;
+
+    &-icon {
+      display: block;
+      height: 100%;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &-text {
+      display: none;
+    }
+
+    &--next {
+      .cmp-carousel__action-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' style='fill:%23fff'%3E%3Cpath d='M20 12l-2.83 2.83L26.34 24l-9.17 9.17L20 36l12-12z'/%3E%3C/svg%3E");
+      }
+    }
+
+    &--previous {
+      .cmp-carousel__action-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' style='fill:%23fff'%3E%3Cpath d='M30.83 14.83L28 12 16 24l12 12 2.83-2.83L21.66 24z'/%3E%3C/svg%3E");
+      }
+    }
+  }
+
+  &__indicators {
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__indicator {
+    background-color: rgba(255, 255, 255, 0.65);
+    border: solid 2px $black;
+    width: 15px;
+    height: 15px;
+
+    &--active {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  }
+}
+
+.cmp-carousel--hero {
+  .cmp-carousel {
+    &__actions {
+      display: none;
+    }
+
+    &__indicators {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    &__indicator {
+      margin: 6px;
+    }
+  }
+}
 
 // Container padding reset for Carousel
 .cmp-container > .aem-Grid > .aem-GridColumn.carousel {
