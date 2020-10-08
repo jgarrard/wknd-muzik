@@ -192,6 +192,15 @@
     &__title {
       font-weight: $font-weight-semibold;
       margin-bottom: 30px;
+      
+      &-link {
+        text-decoration: none;
+
+        &:hover {
+          color: $white;
+          text-decoration: underline;
+        }
+      }
     }
 
     &__action-container {
