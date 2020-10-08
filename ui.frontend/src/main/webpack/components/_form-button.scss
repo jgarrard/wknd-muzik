@@ -1,1 +1,27 @@
-.cmp-form-button {}
+.cmp-form-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: rem(48);
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 90px 0;
+  width: 100%;
+  background-color: $blue;
+  border: solid 1px $blue;
+  border-radius: $border-radius-button;
+  color: $white;
+  font-size: rem(14);
+  line-height: 1;
+  font-weight: $font-weight-bold;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .25s ease-in-out;
+
+  &:hover {
+    background-color: transparent;
+    color: $blue;
+  }
+}

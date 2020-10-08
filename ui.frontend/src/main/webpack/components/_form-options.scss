@@ -1,11 +1,37 @@
-.cmp-form-options {}
-.cmp-form-options__legend {}
-.cmp-form-options__field-label {}
-.cmp-form-options__field {}
-.cmp-form-options__field--checkbox {}
-.cmp-form-options__field--radio {}
-.cmp-form-options__field-description {}
-.cmp-form-options__label {}
-.cmp-form-options__drop-down-field {}
-.cmp-form-options__multi-drop-down-field {}
-.cmp-form-options__help-message {}
+.cmp-form-options {
+  &--radio {
+    display: flex;
+    padding: 0;
+    border: none;
+  }
+
+  &--drop-down {
+    padding: 0;
+    border: none;
+
+    .cmp-form-options__label {
+      display: none;
+    }
+  }
+
+  &__field--drop-down {
+    color: $white;
+    font-size: 14px;
+    padding: 13px;
+    margin-bottom: 24px;
+    border: solid 1px $white;
+    border-radius: $border-radius-button;
+    background-color: transparent;
+    width: 100%;
+    max-width: 380px;
+
+    > option:not(disabled) {
+      color: $black;
+      padding: 13px;
+    }
+  }
+
+  &__field-label {
+    margin-bottom: 15px;
+  }
+}

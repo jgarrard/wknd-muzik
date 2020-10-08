@@ -22,12 +22,6 @@
   }
 }
 
-.cmp-title--center {
-  .cmp-title__text {
-    text-align: center;
-  }
-}
-
 .cmp-title--uppercase {
   .cmp-title__text {
     text-transform: uppercase;
@@ -48,6 +42,17 @@
       width: 128px;
       height: 6px;
       background: $blue;
+    }
+  }
+}
+
+.cmp-title--center {
+  .cmp-title__text {
+    text-align: center;
+
+    &::after {
+      left: 50%;
+      margin-left: -64px;
     }
   }
 }
