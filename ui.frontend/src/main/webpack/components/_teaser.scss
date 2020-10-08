@@ -86,12 +86,19 @@
       padding-right: 25px;
       background: $blue;
       border-radius: $border-radius-button;
+      border: solid 1px $blue;
       font-size: rem(14);
       line-height: 1;
       font-weight: $font-weight-bold;
       letter-spacing: 2.8px;
       text-transform: uppercase;
       text-decoration: none;
+      transition: all .25s ease-in-out;
+
+      &:hover {
+        background-color: transparent;
+        color: $blue;
+      }
     }
 
     .cmp-image__image {
@@ -184,17 +191,24 @@
       display: inline-flex;
       align-items: center;
       height: 48px;
-      padding-left: 25px;
-      padding-right: 25px;
-      background: transparent;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: transparent;
       border: solid 1px $blue;
       border-radius: $border-radius-button;
       font-size: rem(14);
+      color: $blue;
       line-height: 1;
       font-weight: $font-weight-bold;
       letter-spacing: 2.8px;
       text-transform: uppercase;
       text-decoration: none;
+      transition: all .25s ease-in-out;
+
+      &:hover {
+        background-color: $blue;
+        color: $white;
+      }
     }
 
     &__image {

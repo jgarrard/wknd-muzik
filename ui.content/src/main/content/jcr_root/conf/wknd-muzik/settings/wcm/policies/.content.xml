@@ -558,6 +558,44 @@
                     </cq:styleGroups>
                 </policy_1601531868086>
             </sectioncontainer>
+            <button jcr:primaryType="nt:unstructured">
+                <policy_1601879200874
+                    jcr:lastModified="{Date}2020-10-05T00:35:31.704-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content - Button"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-button--colorWhite"
+                                    cq:styleId="1601879237939"
+                                    cq:styleLabel="White"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-button--sizeLarge"
+                                    cq:styleId="1601879251796"
+                                    cq:styleLabel="Large"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="cmp-button--outline"
+                                    cq:styleId="1601879255861"
+                                    cq:styleLabel="Outline"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="cmp-button--center"
+                                    cq:styleId="1601879363246"
+                                    cq:styleLabel="Center"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1601879200874>
+            </button>
         </components>
     </wknd-muzik>
 </jcr:root>

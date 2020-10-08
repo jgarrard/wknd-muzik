@@ -1,4 +1,71 @@
-.cmp-button {}
-.cmp-button__text {}
-.cmp-button__icon {}
-//.cmp-button__icon--myIcon {}
+.cmp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: rem(48);
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: $blue;
+  border: solid 1px $blue;
+  border-radius: $border-radius-button;
+  color: $white;
+  font-size: rem(14);
+  line-height: 1;
+  font-weight: $font-weight-bold;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .25s ease-in-out;
+
+  &:hover {
+    background-color: transparent;
+    color: $blue;
+  }
+}
+
+.cmp-button--color {
+  &White {
+    .cmp-button {
+      background-color: $white;
+      border-color: $white;
+      color: $black;
+    
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+}
+
+.cmp-button--outline {
+  .cmp-button {
+    background-color: transparent;
+    color: $blue;
+
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+}
+
+.cmp-button--size {
+  &Large {
+    .cmp-button {
+      height: rem(68);
+      width: 100%;
+      max-width: 550px;
+      font-size: rem(19);
+    
+      @include media(phone) {
+        max-width: 300px;
+      } 
+    }
+  }
+}
+
+.cmp-button--center {
+  text-align: center;
+}
