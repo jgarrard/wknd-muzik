@@ -3,6 +3,11 @@
 
 header.experiencefragment {
     height: 45px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 
     .cmp-experiencefragment {
         height: 100%;
@@ -18,8 +23,13 @@ header.experiencefragment {
     }
 
     .cmp-image {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-top: 2px;
+
         &__image {
-            height: 35px;
+            height: 40px;
             width: auto;
         }
     }
@@ -33,10 +43,14 @@ header.experiencefragment {
         }
 
         &__item {
-            padding: 0 10px;
+            padding: 0 25px;
 
             &-link {
                 text-decoration: none;
+                text-transform: uppercase;
+                font-size: rem(12);
+                font-weight: $font-weight-bold;
+                letter-spacing: 2.4px;
             }
         }
     }
@@ -45,5 +59,13 @@ header.experiencefragment {
         display: flex;
         height: 45px;
         align-items: center;
+    }
+
+    .cmp-languagenavigation {
+        margin-left: 18px;
+    }
+
+    .cmp-button--iconOnly {
+        margin-left: 15px;
     }
 }

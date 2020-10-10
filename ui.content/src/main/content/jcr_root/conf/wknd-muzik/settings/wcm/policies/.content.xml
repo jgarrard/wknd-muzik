@@ -560,7 +560,7 @@
             </sectioncontainer>
             <button jcr:primaryType="nt:unstructured">
                 <policy_1601879200874
-                    jcr:lastModified="{Date}2020-10-05T00:35:31.704-06:00"
+                    jcr:lastModified="{Date}2020-10-10T00:32:00.668-06:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content - Button"
@@ -568,31 +568,54 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                         <item0
-                            cq:styleGroupMultiple="true"
+                            cq:styleGroupLabel="Style"
                             jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
                                 <item0
-                                    cq:styleClasses="cmp-button--colorWhite"
-                                    cq:styleId="1601879237939"
-                                    cq:styleLabel="White"
-                                    jcr:primaryType="nt:unstructured"/>
-                                <item1
-                                    cq:styleClasses="cmp-button--sizeLarge"
-                                    cq:styleId="1601879251796"
-                                    cq:styleLabel="Large"
-                                    jcr:primaryType="nt:unstructured"/>
-                                <item2
                                     cq:styleClasses="cmp-button--outline"
                                     cq:styleId="1601879255861"
                                     cq:styleLabel="Outline"
                                     jcr:primaryType="nt:unstructured"/>
-                                <item3
-                                    cq:styleClasses="cmp-button--center"
-                                    cq:styleId="1601879363246"
-                                    cq:styleLabel="Center"
+                                <item1
+                                    cq:styleClasses="cmp-button--iconOnly"
+                                    cq:styleId="1602311482661"
+                                    cq:styleLabel="Icon Only"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
+                        <item1
+                            cq:styleGroupLabel="Color"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-button--colorWhite"
+                                    cq:styleId="1602311433608"
+                                    cq:styleLabel="White"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                        <item2
+                            cq:styleGroupLabel="Size"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-button--sizeLarge"
+                                    cq:styleId="1602311445665"
+                                    cq:styleLabel="Large"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item2>
+                        <item3
+                            cq:styleGroupLabel="Position"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-button--center"
+                                    cq:styleId="1602311457247"
+                                    cq:styleLabel="Center"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item3>
                     </cq:styleGroups>
                 </policy_1601879200874>
             </button>
