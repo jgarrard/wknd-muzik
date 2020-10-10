@@ -1,6 +1,45 @@
+footer {
+  background-color: #171717;
+}
 
-//== XF Footer style, used on page template
+#footerContent {
+  padding: 80px 0 60px;
 
-footer.experiencefragment {
+  .cmp-title__text {
+    letter-spacing: 2.4px;
+  }
 
+  .cmp-list {
+    padding: 0;
+    list-style: none;
+
+    &__item {
+       margin-bottom: 20px;
+
+       &-link {
+         text-decoration: none;
+         font-size: rem(14)
+       }
+    }
+  }
+}
+
+#footerSocialLinks {
+  display: flex;
+
+  .cmp-button {
+    margin: 0 10px;
+  }
+}
+
+#footerFooter {
+  border-top: solid 1px #555;
+  padding: 23px 0 26px;
+
+  .cmp-text > p {
+    font-size: rem(14);
+    text-align: center;
+    color: #999;
+    margin: 0;
+  }
 }
