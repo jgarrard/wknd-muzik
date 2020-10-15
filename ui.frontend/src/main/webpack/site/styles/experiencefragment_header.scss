@@ -22,10 +22,13 @@ header.experiencefragment {
     }
 
     .cmp-image {
-        display: flex;
-        align-items: center;
         height: 100%;
-        padding-top: 2px;
+        
+        &__link {
+            display: flex;
+            align-items: center;
+            padding-top: 2px;
+        }
 
         &__image {
             height: 40px;
