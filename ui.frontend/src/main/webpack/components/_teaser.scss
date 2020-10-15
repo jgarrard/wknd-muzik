@@ -64,6 +64,10 @@
       padding-bottom: 20px;
       width: 50%;
 
+      &-link {
+        text-decoration: none;
+      }
+
       &::after {
         position: absolute;
         bottom: 0;
