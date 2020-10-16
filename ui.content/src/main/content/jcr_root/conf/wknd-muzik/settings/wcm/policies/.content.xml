@@ -9,6 +9,8 @@
                 <container jcr:primaryType="nt:unstructured">
                     <form-container
                         jcr:description="Allows the form components to be dropped into this form container."
+                        jcr:lastModified="{Date}2020-10-16T09:54:27.270-06:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Content Form"
                         sling:resourceType="wcm/core/components/policy/policy"
@@ -279,10 +281,13 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2020-10-16T09:54:46.346-06:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:WKND MUZIK Site - Content,/apps/wknd-muzik/components/form/container]">
+                    components="[/apps/wknd-muzik/components/breadcrumb,/apps/wknd-muzik/components/button,/apps/wknd-muzik/components/carousel,/apps/wknd-muzik/components/container,/apps/wknd-muzik/components/embed,/apps/wknd-muzik/components/experiencefragment,/apps/wknd-muzik/components/image,/apps/wknd-muzik/components/sectioncontainer,/apps/wknd-muzik/components/tabs,/apps/wknd-muzik/components/teaser,/apps/wknd-muzik/components/text,/apps/wknd-muzik/components/title,/apps/wknd-muzik/components/form/container]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -347,7 +352,7 @@
                 </policy_1575040440977>
                 <policy_54712243013600
                     cq:styleDefaultElement="div"
-                    jcr:lastModified="{Date}2020-10-01T02:23:25.552-06:00"
+                    jcr:lastModified="{Date}2020-10-16T10:11:06.001-06:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content - Container"
@@ -355,7 +360,8 @@
                     allowedColorSwatches="[rgb(60\,85\,240),rgb(23\,23\,23),rgb(255\,255\,255)]"
                     backgroundColorEnabled="true"
                     backgroundImageEnabled="true"
-                    components="[group:WKND MUZIK Site - Content,group:WKND MUZIK Site - Form]">
+                    components="[/apps/wknd-muzik/components/breadcrumb,/apps/wknd-muzik/components/button,/apps/wknd-muzik/components/carousel,/apps/wknd-muzik/components/container,/apps/wknd-muzik/components/embed,/apps/wknd-muzik/components/experiencefragment,/apps/wknd-muzik/components/image,/apps/wknd-muzik/components/list,/apps/wknd-muzik/components/sectioncontainer,/apps/wknd-muzik/components/tabs,/apps/wknd-muzik/components/teaser,/apps/wknd-muzik/components/text,/apps/wknd-muzik/components/title,/apps/wknd-muzik/components/form/container]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                         <item0
@@ -494,14 +500,16 @@
             <sectioncontainer jcr:primaryType="nt:unstructured">
                 <policy_1601531868086
                     cq:styleDefaultElement="section"
-                    jcr:lastModified="{Date}2020-10-02T14:53:32.056-06:00"
+                    jcr:lastModified="{Date}2020-10-16T10:11:46.773-06:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content - Section Container"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedColorSwatches="[rgb(60\,85\,240),rgb(23\,23\,23),rgb(255\,255\,255)]"
                     backgroundColorEnabled="true"
-                    backgroundImageEnabled="true">
+                    backgroundImageEnabled="true"
+                    components="[/apps/wknd-muzik/components/breadcrumb,/apps/wknd-muzik/components/button,/apps/wknd-muzik/components/carousel,/apps/wknd-muzik/components/container,/apps/wknd-muzik/components/embed,/apps/wknd-muzik/components/experiencefragment,/apps/wknd-muzik/components/image,/apps/wknd-muzik/components/list,/apps/wknd-muzik/components/sectioncontainer,/apps/wknd-muzik/components/tabs,/apps/wknd-muzik/components/teaser,/apps/wknd-muzik/components/text,/apps/wknd-muzik/components/title,/apps/wknd-muzik/components/form/container]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                         <item0
